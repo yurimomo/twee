@@ -1,0 +1,115 @@
+// Place all the styles related to the Top controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+	position: relative;
+  min-height: 100%;
+}
+body {
+	text-align: center;
+}
+ 
+header {
+	width: 100%;
+	height: 46px;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: skyblue;
+	line-height: 18px; 
+	position: fixed;
+	top: 0;
+	margin: 0;
+  background: white;
+  }
+  
+.container {
+  margin: 50px;
+}
+
+.explain  {
+	padding-top: 80px;
+}
+.picture img {
+	padding-top: 80px;
+}
+.price {
+  margin-top: 10px;
+}
+footer {
+	width: 100%;
+	height: 85px;
+	color: white;
+	background: skyblue;
+	font-size: 12px;
+	padding: 20px 0 10px 0;
+	position: absolute;
+	bottom: 0;
+}
+input {
+  padding: 5px 15px 5px 15px;
+}
+.fa {
+  font-size: 18px;
+}
+
+.navbar-default {
+    border: 0;
+}
+.navbar {
+    background-color: transparent;
+    color: white;
+    margin-bottom: 0px;
+}
+.nav li a:hover {
+  background-color: white;
+}
+
+
+.navbar-default {
+  .navbar-brand {
+    color: #ccc;
+    font-size: 15px;
+    &:hover {
+      opacity: 0.8;
+    }
+   }
+  }
+   .navbar-brand {
+     font-size: 15px;
+  
+   }
+  // navbar-right
+  .navbar-nav > li > a {
+    padding-bottom: 0;
+    background-color: white;
+    color: #428bca;
+    &:hover, 
+    &:focus {
+      opacity: 0.8;
+    }
+  }
+  
+  .navbar-nav > .open > a {
+    background-color: transparent;
+    color: white;
+    &:hover, &:focus {
+      color: white;
+    }
+  }
+
+@media (max-width: 767px) {
+ .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ccc;
+    text-align: center;
+    &:hover, &:focus {
+      color: white;
+    }
+   }
+  .navbar-default .navbar-toggle {
+    background-color: transparent;
+    &:hover, &:focus {
+      background-color: transparent;
+    }
+  }
+}

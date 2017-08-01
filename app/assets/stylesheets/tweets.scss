@@ -1,0 +1,47 @@
+// Place all the styles related to the tweets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.form-control {
+  width: 450px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.wrapper {
+  margin-bottom: 74px;
+  padding: 20px 20px 20px 35px;
+  .row {
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+}
+input[type="submit"].btn-block{
+  margin: 15px 0;
+}
+
+input[type="text"] {
+  width: 100px;
+  height: 100px;
+  font-size: 18px;
+}
+.container{
+  padding-bottom: 85px;
+  padding-top: 30px;
+}
+.container h2 {
+  color: #428bca;
+  margin-bottom: 30px;
+}
+.new_tweet {
+ margin-top: 10px;
+ font-size: 18px;
+}
+.new_tweet a {
+ border: 1px solid pink;
+ border-radius: 5px;
+ padding: 10px;
+}
+ .new_tweet a:hover {
+  color: pink;
+}
